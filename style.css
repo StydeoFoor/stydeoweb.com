@@ -1,0 +1,29 @@
+body {
+  font-family: 'Brush Script MT', cursive; /* Choose a cursive font */
+  color: #000000; /* Brownish color for a vintage feel */
+  line-height: 1.5; /* Adjust line spacing */
+  text-align: center; /* Center the text */
+  font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 2px 2px 4px #9e9e9e; /* Add a subtle text shadow */
+}
+p {
+  margin-bottom: 1.5em; /* Add space between paragraphs */
+}
+/* Optional: Add a background to the page */
+body {
+  background-color: #ffffff; /* Light background */
+}
+
+/* Optional: Add a handwritten-like effect */
+/* This will vary depending on the font you choose */
+/* Experiment with different properties to achieve the desired look */
+/* Example: */
+/* p {
+  -webkit-text-stroke: 0.5px #ccc; /* Outline for a handwritten effect */
+} */
+body {
+  background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* This ensures the image covers the entire screen */
+}
